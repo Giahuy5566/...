@@ -12,11 +12,10 @@ local Settings = {
     IsBackgroundTransparent = true,
     Rounded = false,
     Dim = false,
-    
     ItemColor = Color3.fromRGB(30, 30, 30),
     BorderColor = Color3.fromRGB(45, 45, 45),
-    MinSize = Vector2.new(500, 400),
-    MaxSize = Vector2.new(500, 330)
+    MinSize = Vector2.new(500, 300),
+    MaxSize = Vector2.new(500, 300)
 }
 
 local Menu = {}
@@ -1168,7 +1167,7 @@ function Menu.Hotkey(Tab_Name: string, Container_Name: string, Name: string, Key
     HotkeyToggle.BorderColor3 = Color3.new()
     HotkeyToggle.BorderSizePixel = 0
     HotkeyToggle.Position = UDim2.new()
-    HotkeyToggle.Size = UDim2.new(1, 0, 0, 18)
+    HotkeyToggle.Size = UDim2.new(1, 0, 0, 17)
     HotkeyToggle.Font = Enum.Font.SourceSans
     HotkeyToggle.Text = "Toggle"
     HotkeyToggle.TextColor3 = Menu.Accent
